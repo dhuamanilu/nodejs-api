@@ -1,0 +1,59 @@
+<!-- homepage.html -->
+<html>
+<head>
+    <title>SERVICIO ABC DE MONEDAS DEL MUNDO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIENVENIDO AL API DE MONEDAS DEL MUNDO</h1>
+    <h2>Documentación de la API:</h2>
+    <p>Esta API proporciona acceso a datos de monedas.</p>
+    <h3>Endpoints Disponibles:</h3>
+    <ul>
+        <li>GET /coins - Obtiene todas las monedas.</li>
+        <li>GET /coins/:id - Obtiene una moneda por su ID.</li>
+        <li>POST /coins - Crea una nueva moneda.</li>
+        <li>PUT /coins/:id - Actualiza una moneda existente por su ID.</li>
+        <li>DELETE /coins/:id - Elimina una moneda por su ID.</li>
+    </ul>
+    <h3>Formato de los Datos:</h3>
+    <p>Los datos de las monedas están en formato JSON y contienen los campos : 
+        "id":el identificador,
+        "Flag":url a la imagen,
+        "CountryName":Nombre del Pais,
+        "Currency": La divisa,
+            "Code": El codigo de la moneda,
+            "Symbol": Simbolo de la moneda
+    </p>
+    <p>Versión de la API: 1.0</p>
+    <p>Desarrollado por Diego Huamani Luque,Eberth Azurin Zuñiga,Fernando Canal Mendoza,Gersson Huichi Santander,Henry Galvez Quilla,Jeancarlo Chua Aguilar
+    </p>
+</body>
+</html>
